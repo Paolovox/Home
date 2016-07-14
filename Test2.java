@@ -38,9 +38,6 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-		for( String s : regExp(string).keySet()){
-			System.out.println("key : "+s+" - value : "+regExp(string).get(s));
-		}
 		
 		System.out.println(regExp2(string));
 		
